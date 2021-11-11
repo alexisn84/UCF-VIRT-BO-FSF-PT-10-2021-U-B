@@ -69,7 +69,6 @@ $(function() {
 $(function() {
   $('#skills-list').sortable({
     placeholder: 'ui-state-highlight',
-    handle: '.here',
   });
-  // $('#skills-list').disableSelection();
+  $('#skills-list').disableSelection();
 });
