@@ -12,7 +12,7 @@ app.get('/html', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
-// TODO: Create a route for a GET request that will return the content of our `termData.json` file
+// TODO: Create a route for a GET request that will return the content of our `terms.json` file
 
 app.listen(PORT, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
